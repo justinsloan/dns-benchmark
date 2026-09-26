@@ -1,0 +1,5 @@
+build/
+/dns-benchmark
+/dns-benchmark-cli
+# machine-specific clangd include paths (regenerate from pkg-config)
+compile_flags.txt

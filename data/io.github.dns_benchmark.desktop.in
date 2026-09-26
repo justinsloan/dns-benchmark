@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=DNS Benchmark
+GenericName=DNS Resolver Benchmark
+Comment=Find the fastest DNS server over UDP, TCP, DNS-over-TLS and DNS-over-HTTPS
+Exec=@EXEC@
+Icon=io.github.dns_benchmark
+Terminal=false
+Categories=Network;GTK;
+Keywords=dns;resolver;benchmark;speed;network;doh;dot;
+StartupNotify=true

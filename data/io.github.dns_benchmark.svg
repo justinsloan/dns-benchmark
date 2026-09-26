@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3584e4"/>
+      <stop offset="1" stop-color="#1a5fb4"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="24" fill="url(#bg)"/>
+  <!-- speedometer arc -->
+  <path d="M26 86 A40 40 0 1 1 102 86" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="10" stroke-linecap="round"/>
+  <path d="M26 86 A40 40 0 0 1 84 36" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+  <!-- needle -->
+  <line x1="64" y1="74" x2="90" y2="46" stroke="#f6d32d" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="64" cy="74" r="8" fill="#ffffff"/>
+  <text x="64" y="108" font-family="sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">DNS</text>
+</svg>
